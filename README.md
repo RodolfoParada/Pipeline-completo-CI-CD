@@ -17,3 +17,17 @@
        npx tsc --init
        ```
          
+
+      #### ejecuta el proyecto con 
+      ```
+      npm ci
+      ```
+      #### luego
+      ```
+      npm run type-check
+      npm run lint
+      npm run format:check
+      npm run test:unit
+      npm run test:integration
+      npm run build
+      ```
